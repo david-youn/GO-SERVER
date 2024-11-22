@@ -1,0 +1,13 @@
+### List shopping items
+GET http://localhost:8080/users/1
+
+### Create new shopping item
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "David"
+}
+
+### Remove shopping item
+DELETE http://localhost:8080/users/1
